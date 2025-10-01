@@ -1,1 +1,13 @@
-something here.
+  Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\HrishitoshThakurMAQS\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellInt...
+   2 git status
+   3 git add .
+   4 git status
+   5 git stash
+   6 git status
+   7 git log
+   8 git stash pop
+   9 git status
+  10 git commit -m 'added one more file'
+  11 git status
