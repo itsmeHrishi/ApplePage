@@ -1,11 +1,11 @@
   Id CommandLine
   -- -----------
    1 try { . "c:\Users\HrishitoshThakurMAQS\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellInt...
-   git init -> to initialize a git repository
-   git clone -> to clone a repository
-   git add <., file name> -> < . for all, specify karna hai file name> this is to add the made changes to stage
-   git commit -> to commit the changes in the stage into your local branch
-   git push -> to push changes into main branch 
+   2 git init -> to initialize a git repository
+   3 git clone -> to clone a repository
+   4 git add <., file name> -> < . for all, specify karna hai file name> this is to add the made changes to stage
+   5 git commit -> to commit the changes in the stage into your local branch
+   6 git push -> to push changes into main branch 
    2 git status -> to check the status of your branch with respective to main branch
    3 git add . -> add all changes in stage
    4 git status 
