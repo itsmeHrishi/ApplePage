@@ -1,0 +1,197 @@
+  Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\HrishitoshThakurMAQS\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellInt...
+   2 az list
+   3 az list subscriptions
+   4 az subscription list
+   5 az help
+   6 az upgrade
+   7 az account
+   8 az account list
+   9 az 'How to open a particular subscription?'
+  10 git status
+  11 git stash
+  12 git status
+  13 az deployment group create \
+  14 az deployment group create --resource-group POC-Hrishitosh --template-file .\01Storage.json
+  15 az group list
+  16 az group list --output table
+  17 az account list --output table
+  18 az account show
+  19 az account set --subscription 00744933-7ce7-4254-8b3b-b17029bbbedd
+  20 az account show
+  21 az group list --output table
+  22 az group show
+  23 az group show -n vsTestRg
+  24 az group set -n vsTestRG
+  25 az deployment group create --resource-group POC-Hrishitosh --template-file .\01Storage.json
+  26 az deployment group create --resource-group POC-Hrishitosh --template-file .\01Storage.json
+  27 az deployment group create --resource-group POC-Hrishitosh --template-file .\01Storage.json
+  28 az resouce-list -- resource-group POC-Hrishitosh --output table
+  29 az resource-list -- resource-group POC-Hrishitosh --output table
+  30 az resource-list --resource-group POC-Hrishitosh --output table
+  31 az resource list --resource-group POC-Hrishitosh --output table...
+  32 az delete
+  33 az resource delete
+  34 az resource delete -g POC-Hrishitosh
+  35 az resource delete -g POC-Hrishitosh --resource-type StorageAccount
+  36 az resource delete -g POC-Hrishitosh --resource-type StorageAccount -n testsa01Hrishi
+  37 az storage account delete --name testsa01hrishi -g POC-Hrishitosh
+  38 az list group -output table
+  39 az gorup list -output table
+  40 az group list -output table
+  41 az group list --output table
+  42 az delete -g vstestrg
+  43 az group delete -g vstestrg
+  44 az group list --output table
+  45 az resource list -g POC-Hrishitosh --output table
+  46 git add .
+  47 git stash
+  48 git stash pop
+  49 az deployment group create --resource-group POC-Hrishitosh --template-file .\02.json
+  50 az deployment group create --resource-group POC-Hrishitosh --template-file .\02.json
+  51 az deployment group create --resource-group POC-Hrishitosh --template-file .\02.json
+  52 az deployment group create --resource-group POC-Hrishitosh --template-file .\02.json
+  53 git status
+  54 git add .
+  55 git status
+  56 az app service delete
+  57 az ad app list
+  58 az group delete -g POC-Hrishitosh
+  59 az rollback
+  60 az account show
+  61 az group list --output table
+  62 az group create -g Hrishitosh-POC
+  63 az group create --location westus -g Hrishitosh-POC --tags {"Owner":"Hrishitosh","Approved By":"Hrishitosh"}
+  64 az group create --location westus -g Hrishitosh-POC --tags Owner=Hrishitosh
+  65 az group tag -g Hrishitosh-POC --tags Owner=Hrishitosh 'Approved By'='Hrishitosh Thakur'
+  66 az group update -n hrishitosh-poc --set tags.'Approved By'='Hrishitosh Thakur'
+  67 az staticwebapp create -name appelpage -g hrishitosh-poc --location westus --source . --output-location . --sku free
+  68 az staticwebapp create --name appelpage -g hrishitosh-poc --location westus --source . --output-location . --sku free
+  69 git status
+  70 az staticwebapp create --name appelpage -g hrishitosh-poc --location westus --source . --output-location . --sku free --branch main
+  71 az staticwebapp create --name appelpage -g hrishitosh-poc --location westus --source https://github.com/itsmeHrishi/ApplePage --output-location . --sku...
+  72 az staticwebapp create --name appelpage -g hrishitosh-poc --location westus --source https://github.com/itsmeHrishi/ApplePage --output-location . --sku...
+  73 az staticwebapp create --name appelpage -g hrishitosh-poc --location eastus2 --source https://github.com/itsmeHrishi/ApplePage --output-location . --sk... 
+  74 git add .
+  75 git status
+  76 git restore --staged 01Storage.json
+  77 git restore --staged 02.json
+  78 git status
+  79 git push
+  80 git fetch
+  81 git status
+  82 git pull
+  83 git status
+  84 git push
+  85 git status
+  86 git commit -m "added line to check CI/CD"
+  87 git status
+  88 git push
+  89 git add .
+  90 git commit -m 'added style'
+  91 git push
+  92 git status
+  93 az delete -g Hrishitosh-POC --Y
+  94 az group delete -g Hrishitosh-poc --y
+
+
+PS C:\Users\HrishitoshThakurMAQS\ApplePage> Get-History
+
+  Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\HrishitoshThakurMAQS\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+   2 az list
+   3 az list subscriptions
+   4 az subscription list
+   5 az help
+   6 az upgrade
+   7 az account
+   8 az account list
+   9 az 'How to open a particular subscription?'
+  10 git status
+  11 git stash
+  12 git status
+  13 az deployment group create \
+  14 az deployment group create --resource-group POC-Hrishitosh --template-file .\01Storage.json
+  15 az group list
+  16 az group list --output table
+  17 az account list --output table
+  18 az account show
+  19 az account set --subscription 00744933-7ce7-4254-8b3b-b17029bbbedd
+  20 az account show
+  21 az group list --output table
+  22 az group show
+  23 az group show -n vsTestRg
+  24 az group set -n vsTestRG
+  25 az deployment group create --resource-group POC-Hrishitosh --template-file .\01Storage.json
+  26 az deployment group create --resource-group POC-Hrishitosh --template-file .\01Storage.json
+  27 az deployment group create --resource-group POC-Hrishitosh --template-file .\01Storage.json
+  28 az resouce-list -- resource-group POC-Hrishitosh --output table
+  29 az resource-list -- resource-group POC-Hrishitosh --output table
+  30 az resource-list --resource-group POC-Hrishitosh --output table
+  31 az resource list --resource-group POC-Hrishitosh --output table...
+  32 az delete
+  33 az resource delete
+  34 az resource delete -g POC-Hrishitosh
+  35 az resource delete -g POC-Hrishitosh --resource-type StorageAccount
+  36 az resource delete -g POC-Hrishitosh --resource-type StorageAccount -n testsa01Hrishi
+  37 az storage account delete --name testsa01hrishi -g POC-Hrishitosh
+  38 az list group -output table
+  39 az gorup list -output table
+  40 az group list -output table
+  41 az group list --output table
+  42 az delete -g vstestrg
+  43 az group delete -g vstestrg
+  44 az group list --output table
+  45 az resource list -g POC-Hrishitosh --output table
+  46 git add .
+  47 git stash
+  48 git stash pop
+  49 az deployment group create --resource-group POC-Hrishitosh --template-file .\02.json
+  50 az deployment group create --resource-group POC-Hrishitosh --template-file .\02.json
+  51 az deployment group create --resource-group POC-Hrishitosh --template-file .\02.json
+  52 az deployment group create --resource-group POC-Hrishitosh --template-file .\02.json
+  53 git status
+  54 git add .
+  55 git status
+  56 az app service delete
+  57 az ad app list
+  58 az group delete -g POC-Hrishitosh
+  59 az rollback
+  60 az account show
+  61 az group list --output table
+  62 az group create -g Hrishitosh-POC
+  63 az group create --location westus -g Hrishitosh-POC --tags {"Owner":"Hrishitosh","Approved By":"Hrishitosh"}
+  64 az group create --location westus -g Hrishitosh-POC --tags Owner=Hrishitosh
+  65 az group tag -g Hrishitosh-POC --tags Owner=Hrishitosh 'Approved By'='Hrishitosh Thakur'
+  66 az group update -n hrishitosh-poc --set tags.'Approved By'='Hrishitosh Thakur'
+  67 az staticwebapp create -name appelpage -g hrishitosh-poc --location westus --source . --output-location . --sku free
+  68 az staticwebapp create --name appelpage -g hrishitosh-poc --location westus --source . --output-location . --sku free
+  69 git status
+  70 az staticwebapp create --name appelpage -g hrishitosh-poc --location westus --source . --output-location . --sku free --branch main
+  71 az staticwebapp create --name appelpage -g hrishitosh-poc --location westus --source https://github.com/itsmeHrishi/ApplePage --output-location . --sku free --branch main
+  72 az staticwebapp create --name appelpage -g hrishitosh-poc --location westus --source https://github.com/itsmeHrishi/ApplePage --output-location . --sku free --branch main --login-with-github      
+  73 az staticwebapp create --name appelpage -g hrishitosh-poc --location eastus2 --source https://github.com/itsmeHrishi/ApplePage --output-location . --sku free --branch main --login-with-github     
+  74 git add .
+  75 git status
+  76 git restore --staged 01Storage.json
+  77 git restore --staged 02.json
+  78 git status
+  79 git push
+  80 git fetch
+  81 git status
+  82 git pull
+  83 git status
+  84 git push
+  85 git status
+  86 git commit -m "added line to check CI/CD"
+  87 git status
+  88 git push
+  89 git add .
+  90 git commit -m 'added style'
+  91 git push
+  92 git status
+  93 az delete -g Hrishitosh-POC --Y
+  94 az group delete -g Hrishitosh-poc --y
+  95 Get-History
